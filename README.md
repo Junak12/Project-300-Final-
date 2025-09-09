@@ -37,14 +37,9 @@ It provides a **user-friendly interface** for patients to book doctor appointmen
 - **Admin Panel**: React 19, Vite, Tailwind CSS  
 - **Backend**: Node.js, Express, MongoDB, JWT Authentication  
 - **Payments**: Stripe / Razorpay  
-- **File Uploads**: Cloudinary, Multer  
+- **File Uploads**: Cloudinary, Multer
 
 ---
-
-### 1️⃣ Clone the Repository  
-```bash
-git clone https://github.com/your-username/hospital-management-system.git
-cd hospital-management-system
 
 ### Tean Members:
 - S S P Junak (222-115-103)
@@ -52,7 +47,15 @@ cd hospital-management-system
 - Turjo Bhattacharjee (222-115-106)
 - Mustak Ahmed Nishad (222-115-118)
 
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/your-username/hospital-management-system.git
+cd hospital-management-system
+
+
+
   
+
 
 
 
