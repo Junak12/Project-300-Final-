@@ -36,7 +36,7 @@ It provides a **user-friendly interface** for patients to book doctor appointmen
 - **Frontend**: React 19, Vite, React Router, Tailwind CSS, Stripe  
 - **Admin Panel**: React 19, Vite, Tailwind CSS  
 - **Backend**: Node.js, Express, MongoDB, JWT Authentication  
-- **Payments**: Stripe / Razorpay  
+- **Payments**: Stripe   
 - **File Uploads**: Cloudinary, Multer
 
 ---
@@ -55,6 +55,7 @@ cd hospital-management-system
 
 
   
+
 
 
 
