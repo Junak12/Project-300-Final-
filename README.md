@@ -12,7 +12,7 @@ It provides a **user-friendly interface** for patients to book doctor appointmen
 - Register & login securely  
 - Book doctor appointments  
 - Book test appointments  
-- Pay via **Stripe / Razorpay**  
+- Pay via **Stripe**  
 - View booking history  
 
 ### 🛠️ Admin Panel  
@@ -55,6 +55,7 @@ cd hospital-management-system
 
 
   
+
 
 
 
