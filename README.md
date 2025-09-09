@@ -1,4 +1,4 @@
-# 🏥 Hospital Management System  
+# 🏥 Smart Hospital System  
 
 A full-stack **Smart Hospital** built with **React (Vite)**, **Node.js**, **Express**, and **MongoDB**.  
 
@@ -48,6 +48,7 @@ It provides a **user-friendly interface** for patients to book doctor appointmen
 git clone https://github.com/your-username/hospital-management-system.git
 cd hospital-management-system
   
+
 
 
 
