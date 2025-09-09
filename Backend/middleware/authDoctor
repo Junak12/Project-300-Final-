@@ -1,0 +1,24 @@
+import jwt from 'jsonwebtoken';
+
+const authDoctor = (req, res, next) => {
+  try {
+    const authHeader = req.headers['authorization'];
+    if (!authHeader) {
+      return res.status(401).json({ message: 'Not authorized: Token missing' });
+    }
+
+    const token = authHeader.split(' ')[1];
+    if (!token) {
+      return res.status(401).json({ message: 'Not authorized: Token missing' });
+    }
+
+    const decoded = jwt.verify(token, process.env.JWT_SECRET);
+    req.doctor = { docId: decoded.id };
+    next();
+  } catch (error) {
+    console.error('authDoctor error:', error);
+    res.status(401).json({ message: 'Invalid token' });
+  }
+};
+
+export default authDoctor;
