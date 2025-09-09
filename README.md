@@ -41,13 +41,19 @@ It provides a **user-friendly interface** for patients to book doctor appointmen
 
 ---
 
-## ⚙️ Installation & Setup  
-
 ### 1️⃣ Clone the Repository  
 ```bash
 git clone https://github.com/your-username/hospital-management-system.git
 cd hospital-management-system
+
+### Tean Members:
+- S S P Junak (222-115-103)
+- Tanoy Acharjee (222-115-106)
+- Turjo Bhattacharjee (222-115-106)
+- Mustak Ahmed Nishad (222-115-118)
+
   
+
 
 
 
